@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul:last-child {
+}
+
+
+
+.hero {
+    background-image: url(https://www.w3schools.com/w3images/architect.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 1200px) {
+    
+}
+
