@@ -4,11 +4,13 @@
 
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header nav {
+    position: relative;
     display: flex;
-    box-shadow: 0 0 5px 0 black;
+    box-shadow: 0 5px 5px lightgrey;
 }
 
 header nav ul:last-child {
@@ -21,6 +23,26 @@ header nav ul li ,header nav ul li a {
     color: black;
 }
 
+main a {
+    text-decoration: none;
+    color: black;
+}
+main nav {
+    background-color: lightgrey;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main span {
+    color: gray;
+}
+
+
+h3 {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
 
 .hero {
     background-image: url(https://www.w3schools.com/w3images/architect.jpg);
@@ -28,7 +50,6 @@ header nav ul li ,header nav ul li a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 40vh;
-
 }
 
 .hero span {
@@ -55,7 +76,81 @@ header nav ul li ,header nav ul li a {
 
 .wrapper {
     margin: 0 auto;
+    width: 370px;
+}
+.image1 {
+    background-image: url(https://images.adsttc.com/media/images/62e1/f282/f9ad/2a01/655e/c6d5/large_jpg/summer-house-ginneruparkitekter_14.jpg?1658975375);
+}
+
+.image2 {
+    background-image: url(https://thumbs.dreamstime.com/b/two-story-brick-house-traditional-shutters-44086070.jpg);
+}
+
+.image3 {
+    background-image: url(https://www.thinkwood.com/wp-content/uploads/2021/09/SHED_Black-Sheep-Remodel_13-1-scaled.jpg);
+}
+
+.image4 {
+    background-image: url(https://archello.s3.eu-central-1.amazonaws.com/images/2019/11/04/17-Villa-Bruchem-Ossip.1572862034.823.jpg);
+}
+
+.image1,
+.image2,
+.image3,
+.image4 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-height: 400px;
+    height: 80vh;
+    margin-bottom: 10px;
+}
+
+.background p {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 0;
+}
+
+.portrait img {
+    max-height: 280px;
+    height: 60vh;
+    width: 370px;
+    
+}
+.input-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+iframe {
     width: 450px;
+    height: 400px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.black {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 @media only screen and (min-width: 1200px) {
