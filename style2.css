@@ -8,11 +8,18 @@ body {
 
 header nav {
     display: flex;
+    box-shadow: 0 0 5px 0 black;
 }
 
 header nav ul:last-child {
+    display: none;
 }
 
+header nav ul li ,header nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
 
 
 .hero {
@@ -20,6 +27,35 @@ header nav ul:last-child {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 40vh;
+
+}
+
+.hero span {
+    display: none;
+}
+
+.hero p {
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    font-size: 40px;
+    mix-blend-mode: multiply;
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 450px;
 }
 
 @media only screen and (min-width: 1200px) {
