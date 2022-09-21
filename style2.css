@@ -39,9 +39,10 @@ main span {
 }
 
 
-h3 {
+h2 {
     border-bottom: 1px solid lightgray;
     padding-bottom: 10px;
+    margin-top: 80px;
 }
 
 .hero {
@@ -49,7 +50,7 @@ h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40vh;
+    height: 20vh;
 }
 
 .hero span {
@@ -105,7 +106,7 @@ h3 {
     justify-content: flex-start;
     align-items: flex-start;
     max-height: 400px;
-    height: 80vh;
+    height: 30vh;
     margin-bottom: 10px;
 }
 
@@ -135,18 +136,18 @@ input {
 input[type="submit"] {
     background-color: black;
     color: white;
-    width: 30%;
-    margin-bottom: 10px;
+    width: 40%;
+    margin-bottom: 25px;
 }
 
 iframe {
-    width: 450px;
-    height: 400px;
+    width: 370px;
+    height: 350px;
     border: none;
     margin-bottom: 20px;
 }
 
-.black {
+footer {
     background-color: black;
     color: white;
     text-align: center;
