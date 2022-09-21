@@ -17,7 +17,8 @@ header nav ul:last-child {
     display: none;
 }
 
-header nav ul li ,header nav ul li a {
+header nav ul li,
+header nav ul li a {
     list-style: none;
     text-decoration: none;
     color: black;
@@ -27,6 +28,7 @@ main a {
     text-decoration: none;
     color: black;
 }
+
 main nav {
     background-color: lightgrey;
     padding: 10px;
@@ -39,9 +41,10 @@ main span {
 }
 
 
-h3 {
+h2 {
     border-bottom: 1px solid lightgray;
     padding-bottom: 10px;
+    margin-top: 80px;
 }
 
 .hero {
@@ -49,11 +52,7 @@ h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40vh;
-}
-
-.hero span {
-    display: none;
+    height: 20vh;
 }
 
 .hero p {
@@ -66,6 +65,10 @@ h3 {
     text-align: center;
     width: 20%;
     margin: 0 auto;
+}
+
+.hero span p {
+    display: none;
 }
 
 .hero {
@@ -105,14 +108,14 @@ h3 {
     justify-content: flex-start;
     align-items: flex-start;
     max-height: 400px;
-    height: 80vh;
+    height: 30vh;
     margin-bottom: 10px;
 }
 
 .background p {
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 10px;
     margin-top: 0;
 }
 
@@ -135,25 +138,51 @@ input {
 input[type="submit"] {
     background-color: black;
     color: white;
-    width: 30%;
-    margin-bottom: 10px;
+    width: 40%;
+    margin-bottom: 25px;
 }
 
 iframe {
-    width: 450px;
-    height: 400px;
+    width: 370px;
+    height: 350px;
     border: none;
     margin-bottom: 20px;
 }
 
-.black {
+footer {
     background-color: black;
     color: white;
     text-align: center;
     padding: 20px;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 992px) {
+    header {
+        width: 100%;
+    }
     
+    header nav ul:last-child {
+        display: flex;
+        gap: 20px;
+        align-items: right;
+   } 
+
+    header nav ul li {
+        gap: 20px;
+    }
+
+    header nav {
+        justify-content: space-around;
+        padding: 5px 0;
+    }
+
+    .hero span p,
+    .hero p {
+        display: inline;
+    }
+
+    .hero span {
+        color: white;
+    }
 }
 
